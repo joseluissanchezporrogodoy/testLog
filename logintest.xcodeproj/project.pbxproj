@@ -12,6 +12,8 @@
 		1114301C209F4D490089294D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1114301A209F4D490089294D /* Main.storyboard */; };
 		1114301E209F4D4A0089294D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1114301D209F4D4A0089294D /* Assets.xcassets */; };
 		11143021209F4D4A0089294D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1114301F209F4D4A0089294D /* LaunchScreen.storyboard */; };
+		11143029209F54AF0089294D /* LoginInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11143028209F54AF0089294D /* LoginInteractorProtocol.swift */; };
+		1114302B209F55360089294D /* LoginInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1114302A209F55360089294D /* LoginInteractorImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1114301D209F4D4A0089294D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11143020209F4D4A0089294D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11143022209F4D4A0089294D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11143028209F54AF0089294D /* LoginInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorProtocol.swift; sourceTree = "<group>"; };
+		1114302A209F55360089294D /* LoginInteractorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				1114301D209F4D4A0089294D /* Assets.xcassets */,
 				1114301F209F4D4A0089294D /* LaunchScreen.storyboard */,
 				11143022209F4D4A0089294D /* Info.plist */,
+				11143028209F54AF0089294D /* LoginInteractorProtocol.swift */,
+				1114302A209F55360089294D /* LoginInteractorImpl.swift */,
 			);
 			path = logintest;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				11143019209F4D490089294D /* ViewController.swift in Sources */,
 				11143017209F4D490089294D /* AppDelegate.swift in Sources */,
+				1114302B209F55360089294D /* LoginInteractorImpl.swift in Sources */,
+				11143029209F54AF0089294D /* LoginInteractorProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
